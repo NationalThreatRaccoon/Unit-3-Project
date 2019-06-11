@@ -126,6 +126,13 @@ button:hover {
    margin-top: 10px;
  }
 
+.secondary p {
+  font-size: 1.2em;
+}
+
+.sec-new {
+  margin-top: 15px;
+}
 
 .copy {
   font-style: italic;
