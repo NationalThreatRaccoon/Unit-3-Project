@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+  background-color: #3C3C3C;
+}
+
+header {
+  margin: 0;
+
+}
+
+header h1 {
+  font-family: 'Black Ops One', cursive;
+  font-size: 2.3em;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0 30px #00C4FE inset,
+              0 0 50px #00C4FE,
+              0 0 90px purple;
+  border-radius: 0 0 30px 30px;
+  background-image: url('../img/cool.jpg');
+  text-shadow: 0px 0px 17px #00D5FE;
+}
+
+header h2 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+header p {
+  margin-top: 0;
+  text-align: center;
+}
+
+body {
+  margin-top: 0;
+  color: white;
+  font-family: 'Saira', sans-serif;
+  padding: 40px 0 60px;
+  padding-top: 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea, select {
+  background: #504F4F;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #A6A6A5;
+  color: #3D3D3D;
+  box-shadow: 2px 3px 5px #5A5959 inset;
+  margin-bottom: 30px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: purple;
+  background-color: #7B7B7C;
+}
+
+legend {
+  font-size: 1.5em;
+  font-family: 'Orbitron', sans-serif;
+  color: #FE00CD;
+  text-shadow: 2px 1px 5px #00DEFE;
+}
+
+input[type="radio"] {
+
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Black Ops One', cursive;
+  border-radius: 15px;
+  margin: auto;
+  width: 100%;
+  background-color: #FE00D5;
+  color: white;
+  border: 0;
+}
+
+
+
+input[type="submit"]:hover {
+  cursor: crosshair;
+  background-color: #FE81EE;
+}
+
+.primary, .secondary {
+  border: 3px solid #C100FE;
+  background-color: #252525;
+  box-shadow: 0 0 14px #00ABFE;
+  border-radius: 5%;
+
+}
+ .secondary {
+   margin-top: 10px;
+ }
+
+
+.copy {
+  font-style: italic;
+  color: grey;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: auto;
+}
+
+/*---query--*/
+
+@media (min-width: 769px) {
+
+}
