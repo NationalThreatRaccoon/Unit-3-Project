@@ -65,9 +65,14 @@ textarea, select {
   color: #3D3D3D;
   box-shadow: 2px 3px 5px #5A5959 inset;
   margin-bottom: 30px;
+  transition: delay 0.4s;
 }
 
-input:focus,
+.primary input:focus {
+  border-color: purple;
+  background-color: #7B7B7C;
+}
+
 textarea:focus,
 select:focus {
   border-color: purple;
@@ -78,30 +83,36 @@ legend {
   font-size: 1.5em;
   font-family: 'Orbitron', sans-serif;
   color: #FE00CD;
-  text-shadow: 2px 1px 5px #00DEFE;
+  text-shadow: 0 0 15px #00DEFE;
+  background-color: #252525;
+  border-top: 3px solid #C100FE;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-input[type="radio"] {
 
-}
-
-input[type="submit"] {
+button {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
   font-size: 30px;
   font-family: 'Black Ops One', cursive;
   border-radius: 15px;
-  margin: auto;
   width: 100%;
   background-color: #FE00D5;
   color: white;
   border: 0;
+
 }
 
 
 
-input[type="submit"]:hover {
+button:hover {
   cursor: crosshair;
   background-color: #FE81EE;
+  box-shadow: 0 0 20px #00ABFE;
 }
 
 .primary, .secondary {
@@ -127,11 +138,17 @@ input[type="submit"]:hover {
 
 /*---query--*/
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
 form {
   max-width: 600px;
   margin: auto;
+}
+
+.primary input:focus {
+  transition-property: width;
+  width: 120%;
+  transition-duration: 1s;
 }
 
 header h1 {
