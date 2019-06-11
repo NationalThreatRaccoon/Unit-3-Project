@@ -65,7 +65,6 @@ textarea, select {
   color: #3D3D3D;
   box-shadow: 2px 3px 5px #5A5959 inset;
   margin-bottom: 30px;
-  transition: delay 0.4s;
 }
 
 .primary input:focus {
@@ -140,7 +139,6 @@ button:hover {
   text-align: center;
   margin: auto;
   width: 100%;
-  padding: auto;
 }
 
 /*---query--*/
